@@ -24,6 +24,15 @@ h1, h2, h3, h4, h5{
 .menuFixo{
     position: fixed;
 }
+nav.menuFixo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+.menuFixo{
+    background-color: white;
+}
 
 @media ( min-width: 1100px ){
     
@@ -40,12 +49,7 @@ h1, h2, h3, h4, h5{
         margin: 30px;
         margin-top: 15px;
     }
-    nav.menufixo{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-    }
+    
     #nav{
         display: flex;
         justify-content: flex-end;
@@ -173,27 +177,27 @@ h1, h2, h3, h4, h5{
         background-color: white;
     }
     .codigo{
-        width: 215px;
+        width: 300px;
         height: auto;
         border-radius: 10%;
         margin-bottom: 20px;
     }
     .divProjeto{
-        width: 250px;
+        width: 350px;
         height: auto;
         background-color: white;
         border-radius: 10%;
-        margin-left: 60px;
+        margin-left: 80px;
         margin-right: 20px;
         display: block;
         text-align: center;
     }
     .divProjetoDois{
-        width: 250px;
+        width: 350px;
         height: auto;
         background-color: #719489;
         border-radius: 10%;
-        margin-left: 50px;
+        margin-left: 80px;
         margin-right: 20px;
         display: block;
         text-align: center;
@@ -840,9 +844,187 @@ footer p{
     .copy{
         display: block;
         text-align: center;
+        color: white ;
     }
     
     }
-    
 
-    
+    @media (max-width: 576px){
+
+        /* menu */
+        
+        .spanMateusIcone{
+            display: flex;
+            float: left;
+            margin: 30px;
+            margin-top: 15px;
+        }
+        .MateusIcone{
+            width: 40px;
+            height: auto;
+        }
+        
+        #nav{
+            display: flex;
+            float: right;
+        }
+        .praiaul{
+            padding: 7px;
+            margin-top: 20px;
+            margin-left: 5px;
+            padding-left: 30px;
+        }
+        .praiaa{
+            padding: 7px;
+            text-decoration: none;    
+            color: #719489;
+            font-family: 'Airelon', Arial, Helvetica, sans-serif;
+        }
+        .praiaa :hover{
+            color: white;
+            border: solid 10px #719489;
+            background-color: #719489;
+            border-radius: 30%;
+        }
+        #sobreUl{
+            margin-left: 10px;
+            padding-right: 0;
+        }
+        #modeDark{
+            padding: 7px;
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 40px;
+            margin-top: 10px;
+            padding: 15px;
+            color: #719489;
+            border-radius: 15%;
+            border:0;
+            font-size: 15px;
+            font-family: 'Airelon', Arial, Helvetica, sans-serif;
+        }
+        #modeDark :hover{
+            margin: 0;
+            padding: 5px;
+            border-radius: 15%;
+            font-size: 15px;
+            background-color: #719489;
+            color: white;
+        }
+        .cabecalho {
+            font-family: 'Aileron', Arial, Helvetica, sans-serif;
+            text-align: right;
+        }
+        #sobrea{
+            margin-right: 15px;
+        }
+        
+        /* home */
+        
+        .Aileron{
+            font-family: 'Aileron';
+        }
+        .textohome{
+            font-family: 'Aileron';
+            text-align: center;
+            color: #719489;
+        }
+        .github {
+            width: 40px;
+            height: auto; 
+        }
+        .linkedin{
+            width: 60px;
+            height: auto;
+        }
+        .icones{
+            display: block;
+            text-align: center;
+        }
+        
+        #home{
+            padding: 30px;
+            margin-top: 0;
+        }
+        /* Inicio dos codigos dos Projetos (seção 1 e 2) */
+        
+        #projetosUm{
+            background-color: #719489;
+        }
+        #projetosDois{
+            background-color: white;
+        }
+        .codigo{
+            width: 250px;
+            height: auto;
+            border-radius: 10%;
+            margin-bottom: 20px;
+        }
+        .divProjeto{
+            height: auto;
+            background-color: white;
+            border-radius: 10%;
+            padding-bottom: 10px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 30px;
+            display: block;
+            text-align: center;
+        }
+        .divProjetoDois{
+            height: auto;
+            background-color: #719489;
+            border-radius: 10%;
+            padding-bottom: 10px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 30px;
+            display: block;
+            text-align: center;
+        }
+        .divProjetoDois h3{
+            color: white;
+        }
+        .divProjetoDois p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 30px;
+            margin-top: 0;
+            color: white;    
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 30px;
+            margin-top: 0;
+        }
+        
+        /* Inicio dos codigos do sobre*/
+        footer{
+            background-color: #719489;
+            padding: 40px;
+        }
+        #sobre{
+            background-color: #719489;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        .sobreSpan img{
+            width: 300px;
+            height: auto;
+            margin-top: 30px;
+            border-radius: 10%;
+        }
+        .sobreSpan p{
+            color: white;
+            margin-top: 40px;
+            margin: 20px;
+            font-size: large;
+        }
+        .copy{
+            display: block;
+            text-align: center;
+            color: white ;
+        }
+        
+        }
+
+  
