@@ -21,8 +21,240 @@ html{
 h1, h2, h3, h4, h5{
     font-family: 'Airelon', Arial, Helvetica, sans-serif;
 }
+.menuFixo{
+    position: fixed;
+}
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media ( min-width: 1100px ){
+    
+    footer{
+        background-color: #719489;
+        padding-bottom: 50px;
+    }
+    
+    /*Codigos do menu*/
+    
+    .spanMateusIcone{
+        display: flex;
+        justify-content: flex-start;
+        margin: 30px;
+        margin-top: 15px;
+    }
+    nav.menufixo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    #nav{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .praiaul{
+        padding: 7px;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding-left: 50px;
+    }
+    .praiaa{
+        padding: 7px;
+        text-decoration: none;    
+        color: #719489;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    .praiaa :hover{
+        color: white;
+        border: solid 10px #719489;
+        background-color: #719489;
+        border-radius: 30%;
+    }
+    #sobreUl{
+        margin-left: 0;
+        padding-right: 0;
+    }
+    #modeDark{
+        padding: 7px;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        padding: 15px;
+        color: #719489;
+        border-radius: 15%;
+        border:0;
+        font-size: 15px;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    #modeDark :hover{
+        margin: 0;
+        padding: 5px;
+        border-radius: 15%;
+        font-size: 15px;
+        background-color: #719489;
+        color: white;
+    }
+    .cabecalho {
+        font-family: 'Aileron', Arial, Helvetica, sans-serif;
+        text-align: right;
+    }
+    #sobrea{
+        margin-right: 15px;
+    }
+    /* Codigos no modo dark */
+    
+    
+    
+    .praiaadark{
+        padding: 7px;
+        text-decoration: none;    
+        color: white;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    .praiaadark :hover{
+        color: #719489;
+        border: solid 10px white;
+        background-color: white;
+        border-radius: 30%;
+    }
+    
+    #modeClean{
+        padding: 7px;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        padding: 15px;
+        color: #719489;
+        border-radius: 15%;
+        border:0;
+        font-size: 15px;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    #modeClean :hover{
+        margin: 0;
+        padding: 5px;
+        border-radius: 15%;
+        font-size: 15px;
+        background-color: #719489;
+        color: white;
+    }
+    
+    
+    /*Codigos do home */
+    
+    .Aileron{
+        font-family: 'Aileron';
+    }
+    .textohome{
+        font-family: 'Aileron';
+        text-align: center;
+        color: #719489;
+    }
+    .github {
+        width: 40px;
+        height: auto; 
+    }
+    .linkedin{
+        width: 80px;
+        height: auto;
+    }
+    .icones{
+        display: block;
+        text-align: center;
+    }
+    
+    /* Inicio dos codigos dos Projetos (seção 1 e 2) */
+    
+    #projetosUm{
+        background-color: #719489;
+    }
+    #projetosDois{
+        background-color: white;
+    }
+    .codigo{
+        width: 215px;
+        height: auto;
+        border-radius: 10%;
+        margin-bottom: 20px;
+    }
+    .divProjeto{
+        width: 250px;
+        height: auto;
+        background-color: white;
+        border-radius: 10%;
+        margin-left: 60px;
+        margin-right: 20px;
+        display: block;
+        text-align: center;
+    }
+    .divProjetoDois{
+        width: 250px;
+        height: auto;
+        background-color: #719489;
+        border-radius: 10%;
+        margin-left: 50px;
+        margin-right: 20px;
+        display: block;
+        text-align: center;
+    }
+    .spanProjetos{
+        display: flex;
+    
+    }
+    .divProjetoDois h3{
+        color: white;
+    }
+    .divProjetoDois p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+        color: white;    
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+    }
+    
+    /* Inicio dos codigos do sobre*/
+    
+    #sobre{
+        background-color: #719489;
+    }
+    .sobreSpan{
+        display: flex;
+    }
+    .sobreSpan img{
+        width: 300px;
+        height: auto;
+        margin: 40px;
+        border-radius: 10%;
+    }
+    .sobreSpan p{
+        color: white;
+        margin-top: 40px;
+        margin: 20px;
+        font-size: large;
+    }
+    /* Codigos do rodape*/
+    footer p{
+        color: white;
+    }
+    .copy{
+      display: block;
+      text-align: center;  
+    }
+    .MateusIcone{
+        width: 50px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    } }
+
+/* CSS de nooteboks */
+@media (min-width: 992px ) and ( max-width: 1100px ){
+    
 footer{
     background-color: #719489;
     padding-bottom: 50px;
@@ -146,7 +378,7 @@ footer{
     height: auto; 
 }
 .linkedin{
-    width: 40px;
+    width: 80px;
     height: auto;
 }
 .icones{
@@ -163,26 +395,28 @@ footer{
     background-color: white;
 }
 .codigo{
-    width: 300px;
+    width: 215px;
     height: auto;
     border-radius: 10%;
     margin-bottom: 20px;
 }
 .divProjeto{
-    width: 350px;
+    width: 250px;
     height: auto;
     background-color: white;
     border-radius: 10%;
-    margin-left: 80px;
+    margin-left: 60px;
+    margin-right: 20px;
     display: block;
     text-align: center;
 }
 .divProjetoDois{
-    width: 350px;
+    width: 250px;
     height: auto;
     background-color: #719489;
     border-radius: 10%;
-    margin-left: 80px;
+    margin-left: 50px;
+    margin-right: 20px;
     display: block;
     text-align: center;
 }
@@ -239,173 +473,376 @@ footer p{
     margin: 0;
     padding: 0;
 } }
+
+/* CSS de tablets */
+
 @media (min-width: 768px) and (max-width: 991px) {
 
-/* menu */
+    /* menu */
+    
+    .spanMateusIcone{
+        display: flex;
+        float: left;
+        margin: 30px;
+        margin-top: 15px;
+    }
+    .MateusIcone{
+        width: 80px;
+        height: auto;
+    }
+    
+    #nav{
+        display: flex;
+        float: right;
+    }
+    .praiaul{
+        padding: 7px;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding-left: 50px;
+    }
+    .praiaa{
+        padding: 7px;
+        text-decoration: none;    
+        color: #719489;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    .praiaa :hover{
+        color: white;
+        border: solid 10px #719489;
+        background-color: #719489;
+        border-radius: 30%;
+    }
+    #sobreUl{
+        margin-left: 0;
+        padding-right: 0;
+    }
+    #modeDark{
+        padding: 7px;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        padding: 15px;
+        color: #719489;
+        border-radius: 15%;
+        border:0;
+        font-size: 15px;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    #modeDark :hover{
+        margin: 0;
+        padding: 5px;
+        border-radius: 15%;
+        font-size: 15px;
+        background-color: #719489;
+        color: white;
+    }
+    .cabecalho {
+        font-family: 'Aileron', Arial, Helvetica, sans-serif;
+        text-align: right;
+    }
+    #sobrea{
+        margin-right: 15px;
+    }
+    
+    /* home */
+    
+    .Aileron{
+        font-family: 'Aileron';
+    }
+    .textohome{
+        font-family: 'Aileron';
+        text-align: center;
+        color: #719489;
+    }
+    .github {
+        width: 60px;
+        height: auto; 
+    }
+    .linkedin{
+        width: 80px;
+        height: auto;
+    }
+    .icones{
+        display: block;
+        text-align: center;
+    }
+    
+    #home{
+        padding: 0px;
+        margin-top: 0;
+    }
+    /* Inicio dos codigos dos Projetos (seção 1 e 2) */
+    
+    #projetosUm{
+        background-color: #719489;
+    }
+    #projetosDois{
+        background-color: white;
+    }
+    .codigo{
+        width: 180px;
+        height: auto;
+        border-radius: 10%;
+        margin-bottom: 20px;
+    }
+    .divProjeto{
+        width: 250px;
+        height: auto;
+        background-color: white;
+        border-radius: 10%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        text-align: center;
+    }
+    .divProjetoDois{
+        width: 350px;
+        height: auto;
+        background-color: #719489;
+        border-radius: 10%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        text-align: center;
+    }
+    .spanProjetos{
+        display: flex;
+    
+    }
+    .divProjetoDois h3{
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .divProjeto h3{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .divProjetoDois p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+        color: white;    
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+    }
+    
+    /* Inicio dos codigos do sobre*/
 
-.spanMateusIcone{
-    display: flex;
-    float: left;
-    margin: 30px;
-    margin-top: 15px;
-}
-.MateusIcone{
-    width: 100px;
-    height: auto;
-}
+    footer{
+        background-color: #719489;
+        padding-bottom: 10px;
+    }
+    
+    #sobre{
+        background-color: #719489;
+    }
+    .sobreSpan{
+        display: flex;
+    }
+    .sobreSpan img{
+        width: 300px;
+        height: auto;
+        margin: 40px;
+        border-radius: 10%;
+    }
+    .sobreSpan p{
+        color: white;
+        margin-top: 40px;
+        margin: 20px;
+        font-size: large;
+    }
+    .copy{
+        display: block;
+        text-align: center;
+        color: white;
+    }
+    
+    }
+    
+    /* CSS de celulares grande e tablets pequeno */
 
-#nav{
-    display: flex;
-    float: right;
-}
-.praiaul{
-    padding: 7px;
-    margin-top: 20px;
-    margin-left: 5px;
-    padding-left: 50px;
-}
-.praiaa{
-    padding: 7px;
-    text-decoration: none;    
-    color: #719489;
-    font-family: 'Airelon', Arial, Helvetica, sans-serif;
-}
-.praiaa :hover{
-    color: white;
-    border: solid 10px #719489;
-    background-color: #719489;
-    border-radius: 30%;
-}
-#sobreUl{
-    margin-left: 0;
-    padding-right: 0;
-}
-#modeDark{
-    padding: 7px;
-    background-color: white;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-top: 10px;
-    padding: 15px;
-    color: #719489;
-    border-radius: 15%;
-    border:0;
-    font-size: 15px;
-    font-family: 'Airelon', Arial, Helvetica, sans-serif;
-}
-#modeDark :hover{
-    margin: 0;
-    padding: 5px;
-    border-radius: 15%;
-    font-size: 15px;
-    background-color: #719489;
-    color: white;
-}
-.cabecalho {
-    font-family: 'Aileron', Arial, Helvetica, sans-serif;
-    text-align: right;
-}
-#sobrea{
-    margin-right: 15px;
-}
+@media (min-width: 576px) and (max-width: 767.98px){
 
-/* home */
+    /* menu */
+    
+    .spanMateusIcone{
+        display: flex;
+        float: left;
+        margin: 30px;
+        margin-top: 15px;
+    }
+    .MateusIcone{
+        width: 50px;
+        height: auto;
+    }
+    
+    #nav{
+        display: flex;
+        float: right;
+    }
+    .praiaul{
+        padding: 7px;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding-left: 50px;
+    }
+    .praiaa{
+        padding: 7px;
+        text-decoration: none;    
+        color: #719489;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    .praiaa :hover{
+        color: white;
+        border: solid 10px #719489;
+        background-color: #719489;
+        border-radius: 30%;
+    }
+    #sobreUl{
+        margin-left: 0;
+        padding-right: 0;
+    }
+    #modeDark{
+        padding: 7px;
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 40px;
+        margin-top: 10px;
+        padding: 15px;
+        color: #719489;
+        border-radius: 15%;
+        border:0;
+        font-size: 15px;
+        font-family: 'Airelon', Arial, Helvetica, sans-serif;
+    }
+    #modeDark :hover{
+        margin: 0;
+        padding: 5px;
+        border-radius: 15%;
+        font-size: 15px;
+        background-color: #719489;
+        color: white;
+    }
+    .cabecalho {
+        font-family: 'Aileron', Arial, Helvetica, sans-serif;
+        text-align: right;
+    }
+    #sobrea{
+        margin-right: 15px;
+    }
+    
+    /* home */
+    
+    .Aileron{
+        font-family: 'Aileron';
+    }
+    .textohome{
+        font-family: 'Aileron';
+        text-align: center;
+        color: #719489;
+    }
+    .github {
+        width: 40px;
+        height: auto; 
+    }
+    .linkedin{
+        width: 60px;
+        height: auto;
+    }
+    .icones{
+        display: block;
+        text-align: center;
+    }
+    
+    #home{
+        padding: 30px;
+        margin-top: 0;
+    }
+    /* Inicio dos codigos dos Projetos (seção 1 e 2) */
+    
+    #projetosUm{
+        background-color: #719489;
+    }
+    #projetosDois{
+        background-color: white;
+    }
+    .codigo{
+        width: 250px;
+        height: auto;
+        border-radius: 10%;
+        margin-bottom: 20px;
+    }
+    .divProjeto{
+        height: auto;
+        background-color: white;
+        border-radius: 10%;
+        padding-bottom: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+    .divProjetoDois{
+        height: auto;
+        background-color: #719489;
+        border-radius: 10%;
+        padding-bottom: 10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+    .divProjetoDois h3{
+        color: white;
+    }
+    .divProjetoDois p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+        color: white;    
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 30px;
+        margin-top: 0;
+    }
+    
+    /* Inicio dos codigos do sobre*/
+    footer{
+        background-color: #719489;
+        padding: 40px;
+    }
+    #sobre{
+        background-color: #719489;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .sobreSpan img{
+        width: 300px;
+        height: auto;
+        margin-top: 30px;
+        border-radius: 10%;
+    }
+    .sobreSpan p{
+        color: white;
+        margin-top: 40px;
+        margin: 20px;
+        font-size: large;
+    }
+    .copy{
+        display: block;
+        text-align: center;
+    }
+    
+    }
+    
 
-.Aileron{
-    font-family: 'Aileron';
-}
-.textohome{
-    font-family: 'Aileron';
-    text-align: center;
-    color: #719489;
-}
-.github {
-    width: 40px;
-    height: auto; 
-}
-.linkedin{
-    width: 40px;
-    height: auto;
-}
-.icones{
-    display: block;
-    text-align: center;
-}
-
-#home{
-    padding: 0px;
-    margin-top: 0;
-}
-/* Inicio dos codigos dos Projetos (seção 1 e 2) */
-
-#projetosUm{
-    background-color: #719489;
-}
-#projetosDois{
-    background-color: white;
-}
-.codigo{
-    width: 180px;
-    height: auto;
-    border-radius: 10%;
-    margin-bottom: 20px;
-}
-.divProjeto{
-    width: 350px;
-    height: auto;
-    background-color: white;
-    border-radius: 10%;
-    margin-left: 40px;
-    display: block;
-    text-align: center;
-}
-.divProjetoDois{
-    width: 350px;
-    height: auto;
-    background-color: #719489;
-    border-radius: 10%;
-    margin-left: 80px;
-    display: block;
-    text-align: center;
-}
-.spanProjetos{
-    display: flex;
-
-}
-.divProjetoDois h3{
-    color: white;
-}
-.divProjetoDois p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-    margin-top: 0;
-    color: white;    
-}
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
-    margin-top: 0;
-}
-
-/* Inicio dos codigos do sobre*/
-
-#sobre{
-    background-color: #719489;
-}
-.sobreSpan{
-    display: flex;
-}
-.sobreSpan img{
-    width: 300px;
-    height: auto;
-    margin: 40px;
-    border-radius: 10%;
-}
-.sobreSpan p{
-    color: white;
-    margin-top: 40px;
-    margin: 20px;
-    font-size: large;
-}
-
-}
+    
